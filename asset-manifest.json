@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/shezina/static/css/main.42edfdd5.css",
+    "main.js": "/shezina/static/js/main.2269c73b.js",
+    "static/media/batman.jpg": "/shezina/static/media/batman.5302ddae775a362bd4cc.jpg",
+    "index.html": "/shezina/index.html",
+    "main.42edfdd5.css.map": "/shezina/static/css/main.42edfdd5.css.map",
+    "main.2269c73b.js.map": "/shezina/static/js/main.2269c73b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42edfdd5.css",
+    "static/js/main.2269c73b.js"
+  ]
+}

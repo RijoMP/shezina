@@ -36,3 +36,62 @@
     transform: rotate(360deg);
   }
 }
+
+.banner{
+  background-image:url('./batman.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+.slogan{
+  color: rgb(255, 255, 255);
+}
+.sidebar{
+  position: fixed;
+  top: 100vh;
+  bottom: calc(100vh-10px);
+  left: 0px;
+  width: 100vh;
+  height: 100vw;
+  background-color: rgba(44, 44, 44, 0);
+  transform-origin: 0% 0%;
+  transform: rotate(-90deg);
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  flex-basis: content;
+  justify-content: space-between;
+}
+
+.header{
+  font-family: fantasy;
+  color: #ffffff;
+}
+.list{
+  padding-top: 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media only screen and (max-width: 768px)  { 
+    .list{
+      padding-top: 10%;
+      transform: rotate(90deg);
+    }
+    .list text{
+      font-size: 8px;
+    }
+}
+@media (min-width: 768px) and (orientation:portrait)
+{
+  .list{
+    padding-top: 10%;
+    transform: rotate(90deg);
+  }
+  .list text{
+    font-size: 8px;
+  }
+}
